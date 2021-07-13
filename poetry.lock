@@ -108,6 +108,14 @@ async = ["asgiref (>=3.2)"]
 dotenv = ["python-dotenv"]
 
 [[package]]
+name = "helpers"
+version = "0.2.0"
+description = "Improved developer experience, accumulated."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "idna"
 version = "3.2"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -203,7 +211,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "ca595b1b9596233f65cd72d010f8bc4be74ffbb74314665a8229541dec813a00"
+content-hash = "121a3c2497618384af62f866ae45ed1e425d54c93d176e949fff40adb0455f20"
 
 [metadata.files]
 aiohttp = [
@@ -276,6 +284,10 @@ discord-pretty-help = [
 flask = [
     {file = "Flask-2.0.1-py3-none-any.whl", hash = "sha256:a6209ca15eb63fc9385f38e452704113d679511d9574d09b2cf9183ae7d20dc9"},
     {file = "Flask-2.0.1.tar.gz", hash = "sha256:1c4c257b1892aec1398784c63791cbaa43062f1f7aeb555c4da961b20ee68f55"},
+]
+helpers = [
+    {file = "helpers-0.2.0-py3-none-any.whl", hash = "sha256:2ca7fdfc5c1e6994f80e9d01812d92383163434372bad51e7c04d2fe04c82a3e"},
+    {file = "helpers-0.2.0.tar.gz", hash = "sha256:bdfe1641fdaa1be60de8d0a8e3d243e5273582969b1118e87895616f83acdf90"},
 ]
 idna = [
     {file = "idna-3.2-py3-none-any.whl", hash = "sha256:14475042e284991034cb48e06f6851428fb14c4dc953acd9be9a5e95c7b6dd7a"},
